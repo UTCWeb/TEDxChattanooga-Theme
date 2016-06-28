@@ -1,0 +1,110 @@
+@import "../../../vendor/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_variables";
+
+body.page-template-template_home {
+	
+  .profile-link {
+	font-size: 75%;
+	text-align: right;
+  }
+  .twitter-date {
+	font-size: 75%;
+	text-align: right;
+  }
+  .dcwss.dc-feed .stream li {
+	  margin-bottom: 12px !important;
+  } 
+  #twitlink {
+	  margin-bottom: -28px;
+  }
+
+  i.fa.fa-street-view.fa-4x.pull-left {
+	  margin-top: 8px;
+  }
+
+  .post-excerpt {
+    h4 {
+      font-weight: bold;
+      font-size: 16px;
+      margin: 0 0 10px;
+      line-height: 1.4;
+    }
+    img {
+      width: 100%;
+    }
+  }
+  
+  .page-header {
+  	margin-top: 40px;
+  }
+
+  .banner {
+    color: #FFF;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    margin-bottom: 42px;
+    .banner-container {
+      width: 75%;
+      background-color: rgba(100, 100, 100, 0.65);
+      padding: 20px;
+      margin: auto;
+    }
+  }
+  @media(max-width: $screen-xs-max) {
+    .banner {
+      .banner-container {
+        margin-top: 55px;
+        margin-bottom: 55px;
+      }
+      h1 {
+        font-size: 20px;
+      }
+      h2 {
+        font-size: 16px;
+      }
+    }
+  }
+
+  @media(min-width: $screen-tablet) {
+    .banner {
+      .banner-container {
+        margin-top: 75px;
+        margin-bottom: 75px;
+      }
+      h1 {
+        font-size: 40px;
+      }
+      h2 {
+        font-size: 26px;
+      }
+    }
+  }
+
+  @media(min-width: $screen-desktop) {
+    .banner {
+
+      .banner-container {
+        margin-top: 115px;
+        margin-bottom: 115px;
+      }
+      h1 {
+        font-size: 80px;
+        font-weight: bold;
+      }
+    }
+  }
+  @media(min-width: $screen-lg-desktop) {
+    .banner {
+      .banner-container {
+        margin-top: 115px;
+        margin-bottom: 115px;
+      }
+      h1 {
+        font-size: 80px;
+        font-weight: bold;
+      }
+    }
+  }
+
+}

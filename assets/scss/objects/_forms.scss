@@ -1,0 +1,37 @@
+input[type="text"], input[type="password"], textarea {
+  border: 1px solid darken($light-gray, 5);
+  background-color: $light-gray;
+  color: $dark-gray;
+  font-size: 14px;
+  padding: 6px 8px;
+  border-radius: 3px;
+}
+
+input[type="submit"] {
+  background-color: $red;
+  border-radius: 3px;
+  border: 0;
+  color: $white;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 12px;
+  cursor: pointer;
+  padding: 8px 10px;
+}
+
+textarea {
+  max-height: 140px;
+  width: 100%;
+}
+
+ul.listSpeakerInfo {
+	list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+	li {
+	    background-image: url(//tedxchattanooga.com/wordpress/wp-content/uploads/2015/07/check.png);
+	    background-repeat: no-repeat;
+	    background-position: 0px center; 
+	    padding-left: 22px; 
+	}
+}

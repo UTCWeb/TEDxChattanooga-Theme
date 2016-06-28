@@ -1,0 +1,45 @@
+header {
+  padding-top: 30px;
+  padding-bottom: 20px;
+
+  .header-date-location {
+    color: $light-gray;
+    line-height: 1.4;
+    margin-top: 4px;
+    padding: 6px 15px 0 18px;
+    margin-left: 5px;
+    border-left: solid 1px #333;
+    .date {
+      font-weight: bold;
+      display: block;
+    }
+    .location {
+    }
+  }
+  .small-time {
+	  color: $light-gray;
+	  font-size: 10px;
+	  padding: 8px 0 8px 0;
+  }
+  .header-wordmark {
+    margin-right: 16px;
+  }
+  .fa-navicon {
+    top: 8px;
+	position: relative;
+  }
+  .call-to-action {
+    padding-top: 10px;
+    .copy {
+      padding-right: 10px;
+      padding-top: 6px;
+      color: $white;
+    }
+  }
+
+  //-- Responsive Tweaks ----------------------------------------------------
+  @include respond-to(tablet-portrait) {
+    padding-top: 0
+  }
+
+}

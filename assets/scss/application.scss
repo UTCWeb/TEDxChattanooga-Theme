@@ -1,0 +1,52 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ */
+@import url(//fonts.googleapis.com/css?family=Open+Sans);
+
+//-- Initializers -----------------------------------------------------------
+
+@import "initializers/colors";
+@import "initializers/typography";
+@import "initializers/bootstrap_override";
+@import "initializers/respond_to";
+@import "initializers/modifiers";
+@import "initializers/icons";
+
+//-- Pages ------------------------------------------------------------------
+
+@import "pages/layout";
+@import "pages/template_home";
+@import "pages/template_page"; //page.php
+@import "pages/template_schedule";
+@import "pages/single_speaker";
+@import "pages/single_talk";
+
+
+//-- Singletons -------------------------------------------------------------
+
+@import "objects/singletons/header";
+@import "objects/singletons/primary_nav";
+@import "objects/singletons/footer";
+@import "objects/singletons/sidebar";
+
+//-- Objects ----------------------------------------------------------------
+
+@import "objects/_forms";
+@import "objects/post_excerpts";
+@import "objects/post_content";
+@import "objects/sticky_posts";
+@import "objects/not_found";
+@import "objects/pagination";
+@import "objects/comments_template";
+@import "objects/talk_tile";
+@import "objects/team_tile";
+@import "objects/speaker_tile";
+@import "objects/video_container";
