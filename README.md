@@ -1,21 +1,24 @@
 ```
-  ________________      ________                      
- /_  __/ ____/ __ \_  _/_  __/ /_  ___  ____ ___  ___ 
-  / / / __/ / / / / |/_// / / __ \/ _ \/ __ `__ \/ _ \
- / / / /___/ /_/ />  < / / / / / /  __/ / / / / /  __/
-/_/ /_____/_____/_/|_|/_/ /_/ /_/\___/_/ /_/ /_/\___/ 
-                                                      
+       _____ ___________      _____ _           _   _   
+      |_   _|  ___|  _  \    /  __ \ |         | | | |  
+        | | | |__ | | | |_  _| /  \/ |__   __ _| |_| |_ 
+        | | |  __|| | | \ \/ / |   | '_ \ / _` | __| __|
+        | | | |___| |/ / >  <| \__/\ | | | (_| | |_| |_ 
+        \_/ \____/|___/ /_/\_\\____/_| |_|\__,_|\__|\__|
+        
 ```
 
-# TEDxTheme
+# TEDx-Theme
 
-This theme has been designed and coded by [The Working Group](http://twg.ca) and [TEDxToronto](http://www.tedxtoronto.com) in the hopes that other TEDx organizations will find this easy to use to promote and manage their own events.
+This theme was forked from an origina that was designed and coded by [The Working Group](http://twg.ca) and [TEDxToronto](http://www.tedxtoronto.com) in the hopes that other TEDx organizations will find this easy to use to promote and manage their own events.
+
+We have modified some features and tweaked some layouts to better fit our needs at [TEDxChattanooga](https://www.tedxchattanooga.com/).
 
 ### Requirements
 
 * **PHP 5.4** or greater
 * **MySQL 5.0** or greater
-* The **mod_rewrite** Apache module
+* The **mod_rewrite** Apache module or similar configuration for Nginx
 * A recent version of **WordPress**
 
 ### Installation (Developers)
