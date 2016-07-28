@@ -10,7 +10,7 @@
 
 # TEDx-Theme
 
-This theme was forked from an origina that was designed and coded by [The Working Group](http://twg.ca) and [TEDxToronto](http://www.tedxtoronto.com) in the hopes that other TEDx organizations will find this easy to use to promote and manage their own events.
+This theme was forked from an original that was designed and coded by [The Working Group](http://twg.ca) and [TEDxToronto](http://www.tedxtoronto.com) in the hopes that other TEDx organizations will find this easy to use to promote and manage their own events.
 
 We have modified some features and tweaked some layouts to better fit our needs at [TEDxChattanooga](https://www.tedxchattanooga.com/).
 
